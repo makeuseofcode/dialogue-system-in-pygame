@@ -67,7 +67,10 @@ while running:
     screen.fill(BLACK)
 
     if dialogue_box:
-        pygame.draw.rect(screen, GRAY, (dialogue_box_x, dialogue_box_y, dialogue_box_width, dialogue_box_height))
+        pygame.draw.rect(screen, GRAY, (dialogue_box_x, 
+                                        dialogue_box_y, 
+                                        dialogue_box_width, 
+                                        dialogue_box_height))
 
 
         # Add text to the dialog box
